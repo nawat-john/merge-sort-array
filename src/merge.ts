@@ -1,8 +1,4 @@
-export function merge(
-  col_1: number[],
-  col_2: number[],
-  col_3: number[]
-): number[] {
+export function merge(col_1: number[], col_2: number[], col_3: number[]): number[] {
   const result: number[] = [];
   let i = 0;
   let j = col_2.length - 1;
